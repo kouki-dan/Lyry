@@ -669,13 +669,78 @@
         <window title="Lyry" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g" customClass="MainWindow">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="contentRect" x="335" y="390" width="430" height="457"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="430" height="457"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NUh-8O-YMx">
+                        <rect key="frame" x="0.0" y="425" width="434" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="LsG-zD-tjc"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="再生中の曲のタイトル" id="rql-Ez-lre">
+                            <font key="font" size="13" name="AquaKana"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwi-LG-tv4">
+                        <rect key="frame" x="0.0" y="-1" width="432" height="426"/>
+                        <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="0Re-WK-Tpo">
+                            <rect key="frame" x="1" y="1" width="223" height="133"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView editable="NO" selectable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="e6B-Vw-fqq">
+                                    <rect key="frame" x="0.0" y="0.0" width="223" height="133"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="430" height="424"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                    <attributedString key="textStorage">
+                                        <fragment content="再生中の歌詞がずらーーーーーーーーーーー">
+                                            <attributes>
+                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment>
+                                            <mutableString key="content">ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーっと</mutableString>
+                                            <attributes>
+                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <size key="minSize" width="430" height="424"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="579-xp-jic">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="mH7-Wf-id8">
+                            <rect key="frame" x="224" y="1" width="15" height="133"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="NUh-8O-YMx" secondAttribute="trailing" constant="-2" id="87K-vi-3ao"/>
+                    <constraint firstAttribute="bottom" secondItem="lwi-LG-tv4" secondAttribute="bottom" constant="-1" id="fwb-ys-366"/>
+                    <constraint firstItem="NUh-8O-YMx" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="2" id="fwz-35-pC8"/>
+                    <constraint firstAttribute="trailing" secondItem="lwi-LG-tv4" secondAttribute="trailing" constant="-2" id="her-84-X2C"/>
+                    <constraint firstItem="NUh-8O-YMx" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="2" id="iWb-hg-RCy"/>
+                    <constraint firstItem="lwi-LG-tv4" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="vic-dc-Cgt"/>
+                    <constraint firstItem="lwi-LG-tv4" firstAttribute="top" secondItem="NUh-8O-YMx" secondAttribute="bottom" id="xFK-6B-8n1"/>
+                </constraints>
             </view>
-            <point key="canvasLocation" x="616" y="327"/>
+            <point key="canvasLocation" x="612" y="317.5"/>
         </window>
         <button verticalHuggingPriority="750" id="n2x-Kh-R5u">
             <rect key="frame" x="0.0" y="0.0" width="82" height="32"/>
