@@ -30,7 +30,8 @@
     frame.size.width = 300;
     [self.window setFrame:frame display:YES animate:NO];
     
-    [self.window setStyleMask:NSBorderlessWindowMask];
+    [self.window setStyleMask:NSBorderlessWindowMask | NSResizableWindowMask];
+    
     
 
 
