@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAD111019BA218500A4CBCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD110F19BA218500A4CBCB /* main.m */; };
+		1EAD111319BA218500A4CBCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD111219BA218500A4CBCB /* AppDelegate.m */; };
+		1EAD111519BA218500A4CBCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAD111419BA218500A4CBCB /* Images.xcassets */; };
+		1EAD111819BA218500A4CBCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EAD111619BA218500A4CBCB /* MainMenu.xib */; };
+		1EAD112419BA218500A4CBCB /* LyryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD112319BA218500A4CBCB /* LyryTests.m */; };
+		1EAD112F19BA287400A4CBCB /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD112E19BA287400A4CBCB /* MainWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EAD111E19BA218500A4CBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAD110219BA218500A4CBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EAD110919BA218500A4CBCB;
+			remoteInfo = Lyry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EAD110A19BA218500A4CBCB /* Lyry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAD110E19BA218500A4CBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAD110F19BA218500A4CBCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EAD111119BA218500A4CBCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EAD111219BA218500A4CBCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EAD111419BA218500A4CBCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EAD111719BA218500A4CBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1EAD111D19BA218500A4CBCB /* LyryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAD112219BA218500A4CBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAD112319BA218500A4CBCB /* LyryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyryTests.m; sourceTree = "<group>"; };
+		1EAD112D19BA287400A4CBCB /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		1EAD112E19BA287400A4CBCB /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAD110719BA218500A4CBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAD111A19BA218500A4CBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EAD110119BA218500A4CBCB = {
+			isa = PBXGroup;
+			children = (
+				1EAD110C19BA218500A4CBCB /* Lyry */,
+				1EAD112019BA218500A4CBCB /* LyryTests */,
+				1EAD110B19BA218500A4CBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAD110B19BA218500A4CBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD110A19BA218500A4CBCB /* Lyry.app */,
+				1EAD111D19BA218500A4CBCB /* LyryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAD110C19BA218500A4CBCB /* Lyry */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD111119BA218500A4CBCB /* AppDelegate.h */,
+				1EAD111219BA218500A4CBCB /* AppDelegate.m */,
+				1EAD111419BA218500A4CBCB /* Images.xcassets */,
+				1EAD111619BA218500A4CBCB /* MainMenu.xib */,
+				1EAD112D19BA287400A4CBCB /* MainWindow.h */,
+				1EAD112E19BA287400A4CBCB /* MainWindow.m */,
+				1EAD110D19BA218500A4CBCB /* Supporting Files */,
+			);
+			path = Lyry;
+			sourceTree = "<group>";
+		};
+		1EAD110D19BA218500A4CBCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD110E19BA218500A4CBCB /* Info.plist */,
+				1EAD110F19BA218500A4CBCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EAD112019BA218500A4CBCB /* LyryTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD112319BA218500A4CBCB /* LyryTests.m */,
+				1EAD112119BA218500A4CBCB /* Supporting Files */,
+			);
+			path = LyryTests;
+			sourceTree = "<group>";
+		};
+		1EAD112119BA218500A4CBCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD112219BA218500A4CBCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAD110919BA218500A4CBCB /* Lyry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAD112719BA218500A4CBCB /* Build configuration list for PBXNativeTarget "Lyry" */;
+			buildPhases = (
+				1EAD110619BA218500A4CBCB /* Sources */,
+				1EAD110719BA218500A4CBCB /* Frameworks */,
+				1EAD110819BA218500A4CBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyry;
+			productName = Lyry;
+			productReference = 1EAD110A19BA218500A4CBCB /* Lyry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EAD111C19BA218500A4CBCB /* LyryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAD112A19BA218500A4CBCB /* Build configuration list for PBXNativeTarget "LyryTests" */;
+			buildPhases = (
+				1EAD111919BA218500A4CBCB /* Sources */,
+				1EAD111A19BA218500A4CBCB /* Frameworks */,
+				1EAD111B19BA218500A4CBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EAD111F19BA218500A4CBCB /* PBXTargetDependency */,
+			);
+			name = LyryTests;
+			productName = LyryTests;
+			productReference = 1EAD111D19BA218500A4CBCB /* LyryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAD110219BA218500A4CBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Kouki;
+				TargetAttributes = {
+					1EAD110919BA218500A4CBCB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1EAD111C19BA218500A4CBCB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1EAD110919BA218500A4CBCB;
+					};
+				};
+			};
+			buildConfigurationList = 1EAD110519BA218500A4CBCB /* Build configuration list for PBXProject "Lyry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EAD110119BA218500A4CBCB;
+			productRefGroup = 1EAD110B19BA218500A4CBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAD110919BA218500A4CBCB /* Lyry */,
+				1EAD111C19BA218500A4CBCB /* LyryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAD110819BA218500A4CBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAD111519BA218500A4CBCB /* Images.xcassets in Resources */,
+				1EAD111819BA218500A4CBCB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAD111B19BA218500A4CBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAD110619BA218500A4CBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAD111319BA218500A4CBCB /* AppDelegate.m in Sources */,
+				1EAD111019BA218500A4CBCB /* main.m in Sources */,
+				1EAD112F19BA287400A4CBCB /* MainWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAD111919BA218500A4CBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAD112419BA218500A4CBCB /* LyryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EAD111F19BA218500A4CBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EAD110919BA218500A4CBCB /* Lyry */;
+			targetProxy = 1EAD111E19BA218500A4CBCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EAD111619BA218500A4CBCB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAD111719BA218500A4CBCB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EAD112519BA218500A4CBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1EAD112619BA218500A4CBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1EAD112819BA218500A4CBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lyry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EAD112919BA218500A4CBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Lyry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EAD112B19BA218500A4CBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LyryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyry.app/Contents/MacOS/Lyry";
+			};
+			name = Debug;
+		};
+		1EAD112C19BA218500A4CBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LyryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyry.app/Contents/MacOS/Lyry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAD110519BA218500A4CBCB /* Build configuration list for PBXProject "Lyry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAD112519BA218500A4CBCB /* Debug */,
+				1EAD112619BA218500A4CBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAD112719BA218500A4CBCB /* Build configuration list for PBXNativeTarget "Lyry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAD112819BA218500A4CBCB /* Debug */,
+				1EAD112919BA218500A4CBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EAD112A19BA218500A4CBCB /* Build configuration list for PBXNativeTarget "LyryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAD112B19BA218500A4CBCB /* Debug */,
+				1EAD112C19BA218500A4CBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAD110219BA218500A4CBCB /* Project object */;
+}
